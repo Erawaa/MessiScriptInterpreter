@@ -53,7 +53,7 @@ Para usarlo es necesario tener instalado Python. Se instala muy facilmente desde
 1. Descargar los archivos.py de este repositorio.
 2. En la carpeta en la que se guarde, abrís una terminal y corrés el intérprete usando Python, escribiendo:
 ```
-python3 interpreter.py [dirección del archivo a correr]
+python3 msinterpreter.py [dirección del archivo a correr]
 ```
 
-*Ejemplo*: python3 interpreter.py hola_mundo.messi
+*Ejemplo*: python3 msinterpreter.py hola_mundo.messi

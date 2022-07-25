@@ -42,4 +42,4 @@ El comando "*va messi*" necesita que se le pase una oración para asignar valore
 
 *NOTA*: Es destacable que si el valor que se quiere modificar es negativo, al usar un sustantivo, se le suma un uno de igual forma. Es decir, si se tiene "-27" y se usa un sustantivo, se pasa a "-26".
 
-Los sustantivos y adjetivos que se tienen en cuenta están detallados en *words.py*. Las palabras que no estén en ese archivo, son ignoradas.
+Los sustantivos y adjetivos que se tienen en cuenta están detallados en [*words.py*](https://github.com/Erawaa/MessiScriptInterpreter/blob/main/words.py). Las palabras que no estén en ese archivo, son ignoradas.

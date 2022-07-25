@@ -57,3 +57,4 @@ python3 msinterpreter.py [dirección del archivo a correr]
 ```
 
 *Ejemplo*: python3 msinterpreter.py hola_mundo.messi
+*NOTA: Puede ser que tengas que usar "python" en vez de "python3", dependiendo de como lo instales o de tu sistema.*

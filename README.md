@@ -1,5 +1,5 @@
 # MessiScript
-MessiScript es un lenguaje de programación esotérico en el que cada código es una jugada de Messi. Está inspirado en Brainfuck y en Shakespeare Programming Language (SPL).
+***MessiScript*** es un lenguaje de programación esotérico en el que cada código es una jugada de Messi. Está inspirado en Brainfuck y en Shakespeare Programming Language (SPL).
 
 ## Elementos fundamentales
 
@@ -38,8 +38,22 @@ El comando "*va messi*" necesita que se le pase una oración para asignar valore
 
 - **Sustantivos**: Suman uno a la posición actual de la lista.
 - **Adjetivos**: Multiplican por dos a la posición actual de la lista.
-- **"fútbol"**: Cambiar el signo de la posición actual de la lista.
+- **"fútbol"**: Cambia el signo de la posición actual de la lista.
 
 *NOTA*: Es destacable que si el valor que se quiere modificar es negativo, al usar un sustantivo, se le suma un uno de igual forma. Es decir, si se tiene "-27" y se usa un sustantivo, se pasa a "-26".
 
 Los sustantivos y adjetivos que se tienen en cuenta están detallados en [*words.py*](https://github.com/Erawaa/MessiScriptInterpreter/blob/main/words.py). Las palabras que no estén en ese archivo, son ignoradas.
+
+# MessiScriptInterpreter
+Intérprete de MessiScript escrito en Python.
+
+## ¿Cómo lo uso?
+Para usarlo es necesario tener instalado Python. Se hace muy facilmente desde su página oficial. Luego, se puden seguir los siguientes pasos:
+
+1. Descargar los archivos.py de este repositorio.
+2. En la carpeta en la que se guarde, abrís una terminal y corrés el intérprete usando Python, escribiendo:
+```
+python3 messiscriptinterpreter.py [dirección del archivo a interpretar]
+```
+
+*Ejemplo*: python3 messiscriptinterpreter.py hola_mundo.messi

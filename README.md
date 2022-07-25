@@ -48,7 +48,7 @@ Los sustantivos y adjetivos que se tienen en cuenta están detallados en [*words
 Intérprete de MessiScript escrito en Python.
 
 ## ¿Cómo lo uso?
-Para usarlo es necesario tener instalado Python. Se hace muy facilmente desde su página oficial. Luego, se puden seguir los siguientes pasos:
+Para usarlo es necesario tener instalado Python. Se instala muy facilmente desde su página oficial, y se puede instalar en Linux, Windows y MacOS. Luego, se puden seguir los siguientes pasos:
 
 1. Descargar los archivos.py de este repositorio.
 2. En la carpeta en la que se guarde, abrís una terminal y corrés el intérprete usando Python, escribiendo:

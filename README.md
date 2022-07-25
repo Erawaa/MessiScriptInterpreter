@@ -53,7 +53,7 @@ Para usarlo es necesario tener instalado Python. Se hace muy facilmente desde su
 1. Descargar los archivos.py de este repositorio.
 2. En la carpeta en la que se guarde, abrís una terminal y corrés el intérprete usando Python, escribiendo:
 ```
-python3 messiscriptinterpreter.py [dirección del archivo a interpretar]
+python3 messiscriptinterpreter.py [dirección del archivo a correr]
 ```
 
 *Ejemplo*: python3 messiscriptinterpreter.py hola_mundo.messi

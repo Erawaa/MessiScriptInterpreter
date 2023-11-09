@@ -145,29 +145,35 @@ def execute_commands(commands: list, position: list, clipboard: list, array: lis
         
         commands.pop(0)
 
-path = sys.argv[1]
 
-try:
-    script = open(path, "r", encoding='utf-8')
-    file_code = script.read().lower().split(".")
-
-    position = [0]
-    array = [0]
-    clipboard = [0]
-    commands = file_to_commands(file_code)
-
-    if commands[0].name == PROGRAM_START:
-        if commands[len(commands) - 1].name == PROGRAM_END:
-
-            execute_commands(commands, position, clipboard, array)
-
+def interpretate(path: str) -> None: 
+    """Takes a string with the path to the script and interpretates it."""
+    
+    try:    
+        script = open(path, "r", encoding='utf-8')
+        file_code = script.read().lower().split(".")
+    
+        position = [0]
+        array = [0]
+        clipboard = [0]
+        commands = file_to_commands(file_code)
+    
+        if commands[0].name == PROGRAM_START:
+            if commands[len(commands) - 1].name == PROGRAM_END:
+    
+                execute_commands(commands, position, clipboard, array)
+    
+            else:
+                print("Error: No se encuentra final del código. ¿Termina acaso con "
+                        f"\"{ PROGRAM_END }\"?")
         else:
-            print("Error: No se encuentra final del código. ¿Termina acaso con "
-                    f"\"{ PROGRAM_END }\"?")
-    else:
-        print("Error: No se encuentra inicio del código. ¿Comienza acaso con "
-                f"\"{ PROGRAM_START }\"?")
-    script.close()
-        
-except OSError as e:
-        print(f"No se pudo abrir {path}:\n{e}\n", file=sys.stderr)
+            print("Error: No se encuentra inicio del código. ¿Comienza acaso con "
+                    f"\"{ PROGRAM_START }\"?")
+        script.close()
+            
+    except OSError as e:
+            print(f"No se pudo abrir {path}:\n{e}\n", file=sys.stderr)
+
+
+if __name__ == "__main__":
+    interpretate(sys.argv[1])         

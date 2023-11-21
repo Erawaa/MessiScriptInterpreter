@@ -61,6 +61,7 @@ python3 msinterpreter.py [dirección del archivo a correr]
 *NOTA: Puede ser que tengas que usar "python" en vez de "python3", dependiendo de como lo instales o de tu sistema.*
 
 # Soporte para Visual Studio Code
-Le agradezco a [GiovanniSCESP](https://github.com/GiovanniSCESP) por tomarse el trabajo de hacer una extensión para Visual Studio Code llamada [MessiScript Syntax](https://marketplace.visualstudio.com/items?itemName=GiovanniSCESP.messiscript-syntax) que facilita mucho la programación en MessiScript. Agrega syntax highlighting y autocompletado de comandos, entre otras cosas. Pueden instalar la extensión directamente desde VSCode, o acceder al link anterior.
+Le agradezco a [GiovanniSCESP](https://github.com/GiovanniSCESP) por tomarse el trabajo de hacer una extensión para Visual Studio Code llamada [MessiScript Syntax](https://marketplace.visualstudio.com/items?itemName=GiovanniSCESP.messiscript-syntax), que facilita mucho la programación en MessiScript. Agrega syntax highlighting y autocompletado de comandos, entre otras cosas. Pueden instalar la extensión directamente desde VSCode, o acceder al link anterior.
 
 ![Ejemplo de MessiScript Syntax](https://raw.githubusercontent.com/GiovanniSCESP/MessiScript-Syntax/main/img/autocompletado.gif)
+![Otro ejemplo de MessiScript Syntax](https://raw.githubusercontent.com/GiovanniSCESP/MessiScript-Syntax/main/img/intro.gif)

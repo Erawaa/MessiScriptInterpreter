@@ -21,6 +21,9 @@ class Command:
         self.name = name
         self.content = content
 
+    def __repr__(self) -> str:
+        return f"({ self.name },{ self.content })"
+
 
 def file_to_commands(file_code) -> list:
     """Takes the source code of a given program and returns a list of the commands."""

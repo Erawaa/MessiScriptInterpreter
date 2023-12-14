@@ -27,7 +27,7 @@ Existen 14 comandos, que se detallan a continuación:
 - **la pisa messi**: Muestra por pantalla el caracter correspondiente en UNICODE al número de la posición actual de la lista.
 - **siempre messi**: Toma un input numérico del usuario, y lo guarda en la posición actual de la lista. Si el input no es un número entero, se ignora.
 - **gambetea messi**: Toma un input del usuario, y guarda el número correspondiente en UNICODE al primer caracter que se ingresa.
-- **sigue messi**: Si la posición actual es cero, se salta todos los comandos hasta encontrarse un "*vuelve messi*". Si no lo es, ejecuta los comandos hasta encontrarse con un comando "*vuelve messi*" y luego vuelve al comando. Una vez que vuelve, corrobora de vuelta el valor de la posición actual, y actúa de la misma forma.
+- **sigue messi**: Si la posición actual es cero, se saltea todos los comandos hasta encontrarse un "*vuelve messi*". Si no lo es, ejecuta los comandos hasta encontrarse con un comando "*vuelve messi*" y luego vuelve al comando. Una vez que vuelve, corrobora de vuelta el valor de la posición actual, y actúa de la misma forma.
 - **vuelve messi**: Indica el final de un bucle de comandos iniciado por un comando "*sigue messi*".
 - **corre messi**: Copia el contenido de la posición actual de la lista al portapapeles.
 - **amaga messi**: Copia el contenido del portapapeles a la posición actual de la lista.

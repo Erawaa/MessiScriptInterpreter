@@ -37,7 +37,5 @@ venv.bak/
 .spyproject
 
 
-# Others
-pruebasmessi.py
-output.txt
+# Mac OS
 .DS_Store

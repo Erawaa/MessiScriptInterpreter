@@ -31,11 +31,3 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-
-# Mac OS
-.DS_Store

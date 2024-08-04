@@ -8,13 +8,13 @@ class Command:
     """A command.
     
     A command represents the most basic units of the language. Each one can be executed
-    separatedly.
+    separately.
 
     Attributes:
         name: A string indicating the reserved words for the command.
         content: A string indicating extra words that go with the command. Depending on
         whether it needs them or not, it can be used or simply ignored. Most of the time,
-        it's ignored.
+        it is ignored.
     """
 
     def __init__(self, name: str, content: str) -> None:
@@ -63,8 +63,8 @@ def file_to_commands(file_code) -> list:
 
 
 def remove_ignored_characters(command_content: str) -> str:
-    """Takes a string and returns the same string, but not including any of the character
-    in IGNORED_CHARACTERS."""
+    """Takes a string and returns the same string, but without including any of the
+    characters in IGNORED_CHARACTERS."""
 
     modified_content = command_content
 

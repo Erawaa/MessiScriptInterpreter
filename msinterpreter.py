@@ -136,6 +136,39 @@ def execute_commands(commands: list, position: list, clipboard: list, array: lis
         elif commands[0].name == ASSIGN_ZERO or commands[0].name == ASSIGN_ZERO_ALT:
             array[position[0]] = 0
 
+        elif commands[0].name == ADD:
+            array[position[0]] += clipboard[0]
+
+        elif commands[0].name == SUBTRACT:
+            array[position[0]] -= clipboard[0]
+
+        elif commands[0].name == MULTIPLY:
+            array[position[0]] *= clipboard[0]
+
+        elif commands[0].name == DIVIDE:
+            if clipboard[0] == 0:
+                print("Error: No se puede dividir por cero.")
+            else:
+                array[position[0]] //= clipboard[0]
+
+        elif commands[0].name == EQUAL:
+            array[position[0]] = 1 if array[position[0]] == clipboard[0] else 0
+
+        elif commands[0].name == NOT_EQUAL:
+            array[position[0]] = 1 if array[position[0]] != clipboard[0] else 0
+
+        elif commands[0].name == GREATER_OR_EQUAL:
+            array[position[0]] = 1 if array[position[0]] >= clipboard[0] else 0
+
+        elif commands[0].name == LESS_OR_EQUAL:
+            array[position[0]] = 1 if array[position[0]] <= clipboard[0] else 0
+
+        elif commands[0].name == GREATER_THAN:
+            array[position[0]] = 1 if array[position[0]] > clipboard[0] else 0
+
+        elif commands[0].name == LESS_THAN:
+            array[position[0]] = 1 if array[position[0]] < clipboard[0] else 0
+
         elif commands[0].name == MOVE_POINTER_RIGHT:
             if len(array) == position[0]+1:
                 array.append(0)

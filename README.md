@@ -15,7 +15,7 @@ La syntaxis de MessiScript es muy básica. Todo código se compone de comandos s
 
 ### Comandos
 
-Existen 14 comandos, que se detallan a continuación:
+Existen 24 comandos, que se detallan a continuación:
 
 - **la agarra messi**: Indica el comienzo del código.
 - **¡gol!**: Indica el final del código.
@@ -31,6 +31,18 @@ Existen 14 comandos, que se detallan a continuación:
 - **vuelve messi**: Indica el final de un bucle de comandos iniciado por un comando "*sigue messi*".
 - **corre messi**: Copia el contenido de la posición actual de la lista al portapapeles.
 - **amaga messi**: Copia el contenido del portapapeles a la posición actual de la lista.
+- **suma messi**: Suma el contenido del portapapeles a la posición actual de la lista.
+- **resta messi**: Resta el contenido del portapapeles a la posición actual de la lista.
+- **multiplica messi**: Multiplica la posición actual de la lista por el contenido del portapapeles.
+- **divide messi**: Divide (de forma entera) la posición actual de la lista por el contenido del portapapeles. Si el portapapeles es cero, no hace nada y muestra un error.
+- **empata messi**: Asigna 1 a la posición actual si es igual al contenido del portapapeles, o 0 si no lo es.
+- **desempata messi**: Asigna 1 a la posición actual si es distinta al contenido del portapapeles, o 0 si no lo es.
+- **es mayor messi**: Asigna 1 a la posición actual si es mayor al contenido del portapapeles, o 0 si no lo es.
+- **es menor messi**: Asigna 1 a la posición actual si es menor al contenido del portapapeles, o 0 si no lo es.
+- **es mayor o igual messi**: Asigna 1 a la posición actual si es mayor o igual al contenido del portapapeles, o 0 si no lo es.
+- **es menor o igual messi**: Asigna 1 a la posición actual si es menor o igual al contenido del portapapeles, o 0 si no lo es.
+
+*NOTA*: Los comandos de aritmética y comparación (*suma*, *resta*, *multiplica*, *divide*, *empata*, *desempata*, *es mayor*, *es menor*, *es mayor o igual*, *es menor o igual*) usan siempre el portapapeles como segundo operando. Para operar entre dos posiciones de la lista, primero hay que copiar una al portapapeles con "*corre messi*", moverse a la otra posición, y ahí ejecutar el comando correspondiente. Como los comparadores dejan un 1 o un 0 en la posición actual, se pueden usar directamente como condición de un "*sigue messi*".
 
 ### Asignación de valores
 

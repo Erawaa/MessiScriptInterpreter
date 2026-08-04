@@ -21,6 +21,18 @@ LOOP_END = "vuelve messi"
 COPY = "corre messi"
 PASTE = "amaga messi"
 
+ADD = "suma messi"
+SUBTRACT = "resta messi"
+MULTIPLY = "multiplica messi"
+DIVIDE = "divide messi"
+
+EQUAL = "empata messi"
+NOT_EQUAL = "desempata messi"
+GREATER_OR_EQUAL = "es mayor o igual messi"
+LESS_OR_EQUAL = "es menor o igual messi"
+GREATER_THAN = "es mayor messi"
+LESS_THAN = "es menor messi"
+
 COMMAND_NAMES = [
     ASSIGN_VALUE,
     MOVE_POINTER_RIGHT,
@@ -37,4 +49,14 @@ COMMAND_NAMES = [
     LOOP_END,
     COPY,
     PASTE,
+    ADD,
+    SUBTRACT,
+    MULTIPLY,
+    DIVIDE,
+    EQUAL,
+    NOT_EQUAL,
+    GREATER_OR_EQUAL,
+    LESS_OR_EQUAL,
+    GREATER_THAN,
+    LESS_THAN,
 ]
